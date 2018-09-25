@@ -1,0 +1,224 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body {
+  background: #27ae60;
+}
+
+.navbar {
+  background-color: #263238;
+  border: 0px;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-brand:hover {
+  color: #ffffff;
+}
+
+#github-searcher:hover {
+  color: #ffffff;
+}
+
+#nav:hover, #nav:visited {
+  color: #ffffff;
+}
+
+#nav {
+  font-size: 18px;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+}
+
+.navbar-nav>li>a:hover {
+    color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.github-profile-info h2 a {
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.github-profile-state a {
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+#card {
+  width: 30%;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.search-box input[type='search'] {
+  width: 100%;
+  font-size: 20px;
+  border: 0;
+  padding: 10px 5px;
+  background: #e6ebed;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+.notfound {
+  background: #fff;
+  padding: 20px 10px;
+  text-align: center;
+}
+.notfound h2 {
+  font-size: 2rem;
+  color: #27ae60;
+  margin: 0;
+}
+.notfound p {
+  font-size: 1rem;
+  color: #000;
+}
+
+
+.github-profile-info {
+  background: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.github-profile-info img {
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+.github-profile-info h2 a {
+  font-size: 30px;
+  color: #2368bd;
+}
+
+.github-profile-info h2 {
+  margin: 10px;
+}
+.github-profile-info h3 {
+  font-size: 18px;
+  color: #2368bd;
+  margin: 10px;
+}
+.github-profile-state {
+  background: #34495e;
+  text-align: center;
+  padding: 20px;
+}
+.github-profile-state ul {
+  direction: ltr;
+  padding: 0;
+  margin-bottom: 0;
+}
+.github-profile-state li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.github-profile-state a {
+  color: #fff;
+}
+.github-profile-state i {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  display: block;
+}
+.github-profile-state span {
+  font-size: 20px;
+  letter-spacing: .06rem;
+  color: #27ae60;
+}
+
+@media screen and (max-width: 480px) {
+
+  #card {
+    width: 90%;
+    top: 310px;
+  }
+
+  .navbar-nav {
+    margin: 0;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 0;
+    font-size: 18px;
+  }
+
+  .search-box input[type='search'] {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .github-profile-info {
+    padding: 10px;
+  }
+
+  .github-profile-info h3 {
+    margin-bottom: 0;
+  }
+
+  .github-profile-state {
+    padding: 10px;
+  }
+
+  .github-profile-state i {
+    font-size: 18px;
+  }
+
+  .github-profile-state span {
+    font-size: 18px;
+  }
+
+  .github-profile-state li {
+    margin-right: 10px;
+  }
+
+  
+}
+
